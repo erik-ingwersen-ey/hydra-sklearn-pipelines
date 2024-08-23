@@ -25,7 +25,7 @@ def print_config(
     """
 
     style = "dim"
-    tree = Tree(f":gear: CONFIG", style=style, guide_style=style)
+    tree = Tree(":gear: CONFIG", style=style, guide_style=style)
 
     for field in fields:
         branch = tree.add(field, style=style, guide_style=style)
